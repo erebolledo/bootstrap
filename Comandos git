@@ -1,0 +1,15 @@
+#Para "bajer/clonar" un repositorio
+git clone https://github.com/erebolledo/bootstrap.git
+
+#Para inicializar un repositorio
+git init
+
+#Para agregar archivos a un rpositorio
+git add *
+
+#Para "subir" cambios al repositorio
+git commit -m "first commit"
+git push -u origin master
+
+#Si no has agregado el repositorio remoto
+git remote add origin https://github.com/erebolledo/bootstrap.git
